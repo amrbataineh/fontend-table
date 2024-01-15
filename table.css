@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    }
+
+
+
+#navBar img{
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    margin-top: 10px;
+    }
+    
+    #navBar{
+    background-color: Turquoise;
+    height: 150px;
+    border: 5px solid gold
+    }
+    
+    #navBar h1,#navBarbutton,#navBar img{
+    float: left;
+    
+    }
+    
+    #navBar h1{
+    margin-top: 50px;
+    margin-left: 30%;
+    font-size: 30px;
+    color: black;
+    }
+    #navBarbutton{
+    margin-top: 50px;
+    margin-left: 42%;
+    font-size: 20px;
+    }
+    #navBarbutton button{
+    margin-left:16px;
+    height: 50px;
+    width: 80px;
+    background-color: gray;
+    color:black;
+    border-radius: 20px;
+    border: 3px solid rgb(80, 17, 17);
+    font-size: 18px;
+    } 
+    
+    #main{
+background-color: black;
+height: 1000px;
+width: 2265px;
+margin-top: 0px;
+ }
+ #footer{
+    margin-top:2px;
+    background-color:  Turquoise;
+    height: 150px;
+    border: 5px outset gold
+     
+    }
+    
+    #footer h1{
+    font-size: 40px;
+    margin-left: 50%;
+    color: black;  
+  }
+
+    #maintable{
+        color: white;
+        border: 1px outset white;
+        margin-top: 50px 0px 0px 566.25px ;
+        font-size: 30px;
+        border-radius: 10px;
+        background-color: blue;
+        margin-left: 40px;
+        
+        }
+        #maintable td,th {
+        border: 1px double black;
+        padding: 10px 30px;
+        text-align: center;
+        color: gold;
+        }
+        
+        #maintable th{
+            color: red;
+        }
+   
