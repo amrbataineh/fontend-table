@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+}
+#navBar{
+    float: left;
+margin-left: 40%;
+}
+#navBar button{
+margin-top: 30px;
+height: 50px;
+width: 90px;
+
+
+}
+#main img {
+float: right;
+height: 100px;
+width: 70px;
+margin-top: 0.5%;
+margin-right:30%;
+border: 1px dashed blue;
+padding: 400px;
+
+
+}
+
+
+
