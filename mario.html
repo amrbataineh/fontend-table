@@ -9,14 +9,27 @@
 </head>
 <body>
 <div id="navBar">
-<button onclick="MoveMario(0)" class="marioBtt">Move Left</button>
-<button onclick="MoveMario(1)" class="marioBtt">Move right</button>
-<button onclick="MoveMario(2)" class="marioBtt">Move to up </button>
-<button onclick="MoveMario(3)" class="marioBtt">Move Down </button>
+    <h1>Welcome to mario game</h1>
+
  </div>
 
  <div id="main">
-<img class="mainimge" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4D3Fglw6btSn3Ormte40eJetzlaT7wUsPnQ&usqp=CAU" alt="" srcset="">
+<button onclick="moveMario(0)" class="marioButt"> Left</button>
+<button onclick="moveMario(1)" class="marioButt">rigth</button>
+<button onclick="moveMario(2)" class="marioButt">up</button>
+<button onclick="moveMario(3)" class="marioButt">Down</button>
+<button onclick="moveAround()">random</button>
+<button onclick="stopMove()" >stop</button>
+ </div>
+
+ <div id="marioBox">
+ <img id="mario" src="./media/mario center.jpg" alt="" srcset="" width="150px">
+
+
+
+
+
+
  </div>
  <script src="./mario.js"></script>   
 </body>
